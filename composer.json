@@ -15,12 +15,12 @@
         "bin/slimdump"
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.2|^8.0",
         "ext-libxml": "*",
         "ext-pdo": "*",
         "ext-SimpleXML": "*",
         "doctrine/dbal": "^2.5.2",
-        "fzaninotto/faker": "^1.6",
+        "fakerphp/faker": "^1.15",
         "symfony/console": "^5.0.0 || ^4.0.0 || ^3.0.0 || ^2.8.7"
     },
     "require-dev": {
